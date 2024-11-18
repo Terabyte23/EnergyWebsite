@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', serif;
+            background-color: #1a1a1a; /* Тёмный фон */
+            color: white; /* Белый текст */
+        }
+
+        .product-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #292929; /* Тёмно-серый фон */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn-primary {
+            background-color: #3978ff; /* Красная кнопка для бренда Red Bull */
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #295cc9; /* Темнее при наведении */
+        }
+
+        img{
+            border-radius: 10px;
+        }
+
+        .video-container {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #aaaaaa;
+        }
+
+        footer p:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <!-- Логотип -->
+                <a href="index.html" class="text-white text-decoration-none fs-4">
+                     Energy
+                </a>
+
+                <!-- Навигационное меню -->
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="products.html">Energys</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contacts.html">Contacts</a>
+                        </li>
+                        <li><a class="nav-link text-white" href="redbull.html">Ru</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Поисковая строка -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section class="row">
+            <!-- Описание продукта -->
+            <div class="col-lg-6">
+                <div class="product-section">
+                    <h2>About Red Bull</h2>
+                    <p>Red Bull Energy Drink is appreciated by athletes, busy professionals, students and travelers all over the world. This drink gives you the energy you need to reach your goals!</p>
+                    <p>Contains caffeine, taurine, B vitamins and natural sugars to keep you energized and alert.</p>
+                    <ul>
+                        <li>Volume: 250 ml</li>
+                        <li>Calories: 110 per can</li>
+                        <li>Caffeine: 80 mg per can</li>
+                    </ul>
+                    <a href="https://www.redbull.com" target="_blank" class="btn btn-primary mt-3">Official website</a>
+                </div>
+            </div>
+            <!-- Изображение продукта -->
+            <div class="col-lg-6 text-center">
+                <img src="https://media.istockphoto.com/id/537022544/photo/aluminium-can-of-red-bull-energy-drink-iced-background.jpg?s=612x612&w=0&k=20&c=3CZ7G16GJPeLmY29eCRKGKAyN2FVmuO9YzoMEVSKrVQ=" alt="Red Bull Can" class="img-fluid">
+            </div>
+        </section>
+
+
+        <section class="video-container">
+            <h2 class="text-center text-white mb-4">Red Bull Commercial</h2>
+            <iframe src="https://www.youtube.com/embed/M_poPnAKrJ0?si=obzyoHAN9XD6Der0" title="Red Bull Commercial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Energy. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

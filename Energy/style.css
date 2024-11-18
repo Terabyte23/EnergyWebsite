@@ -1,0 +1,119 @@
+/* Общие настройки */
+body {
+    font-family: 'Nunito', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #333;
+}
+
+/* Хэдер */
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header a {
+    font-family: 'Nunito', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+
+
+/* Логотип */
+header a img {
+    border-radius: 50%; /* Пример: закругление для изображения */
+}
+
+
+article p {
+    font-family: 'Nunito', serif;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Список особенностей */
+article ul {
+    font-family: 'Nunito', serif;
+    margin: 20px 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #ffffff;
+}
+
+article ul li {
+    margin-bottom: 10px;
+    
+}
+
+section h1{
+    font-family: 'Nunito', serif;
+    color: #ffffff;
+}
+
+section p{
+    font-family: 'Nunito', serif;
+    color: #ffffff;
+}
+
+/* Блок цитаты */
+
+
+blockquote footer {
+    font-family: 'Nunito', serif;
+    text-align: right;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+}
+
+/* Ссылки и кнопки */
+a, a:hover {
+    font-family: 'Nunito', serif;
+    text-decoration: none;
+    color: #0056b3;
+}
+
+a:hover {
+    font-family: 'Nunito', serif;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.h4{
+    font-family: 'Nunito', serif;
+    color: #818181;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    header .d-flex {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    header nav {
+        margin-top: 10px;
+    }
+
+    header form {
+        margin-top: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    article p {
+        font-size: 1rem;
+    }
+
+    blockquote {
+        font-size: 0.9rem;
+    }
+}
